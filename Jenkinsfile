@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/pyakurh2'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/HP097/225-lab3-2.git'                   // <------change this
-        KUBECONFIG = credentials('pyakurh2-225')                                             // <------change this
+        KUBECONFIG = credentials('pyakurh2-225-sp26')                                             // <------change this
     }
 
     stages {
